@@ -6,6 +6,14 @@
 
 Open external links in the last focused normal Chrome window instead of a PWA window.
 
+## Why?
+
+Chrome owns both regular tabbed windows and installed PWA windows. When another application opens a URL through `xdg-open` or the Chrome command line, there is no option to say “use the last focused regular window.” If a PWA was used most recently, Chrome may create another regular window instead of adding a tab to the regular window you were already using.
+
+Typical symptoms are links appearing in an unexpected window, unnecessary new Chrome windows accumulating, or a timing-based launcher leaving a blank tab or typing into the wrong page. Launchers that focus a window, sleep, and then paste or type the URL are inherently racy: focus can change at any point, and they also depend on the clipboard or synthetic keyboard input.
+
+Chrome URL Router becomes the desktop URL handler and forwards each URL through Native Messaging to its extension. The extension can explicitly find the last focused `normal` Chrome window and create a tab in that window, without a fixed delay, clipboard access, or simulated input.
+
 ## Install on Linux
 
 Requires Python 3.9+ and Google Chrome or Chromium.
