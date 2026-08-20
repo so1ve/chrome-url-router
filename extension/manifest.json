@@ -4,7 +4,7 @@
   "description": "Open external links in the last focused normal Chrome window instead of creating another window after using a PWA.",
   "version": "1.0.1",
   "minimum_chrome_version": "105",
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzC6Pf7B3LGZTsNlyZrboHbPi0+4FI1g3oYjcfpWFvl+H3GWAPyB9uv2w7RktUTG7riGIFBcZ4PxuiFWeQ51Zo20qosHO8B2nlY7H2nzv8I8nJmC63hAOYs5UO8vYY1ADwxJFZzRJp4c0K2Qvz4sRAO9Kb67E+HqW5x+Ylx7LozGU1z6CDBvKc4bwvNoUN891FaSo3daZJ2WN5GP07y+UCdr/R6o9b26eCilT8NddjIaUzdAxMY2LKQdJ8B0T+AUq8U723xxJD4itJbtbuEaAinlqIJrAr66S9Yw59QIoqmfd/PTHZ+xcp5mG7d26pcJfXpyf40YRUd6xzwt9Yd5UYwIDAQAB",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqdOe2sXxjQw+3m4ot6Mu0nyI4BtAMOV05XRU+Rb94+AJIP1jhm0bCgsw+GATc4GRzO/E7HZTjNVpZAr/npdMLKdWWyY+7CaNjTDW+4MaGTvT2mS8ND7L5bPmnNiJ4moKz4L8io/JfdN0GE6yQatzPTEwD2ZRRCO7eJjSYYWYrR8Sg+J2wfq9+0CgTz5EI0+yHrMghm5F22ypEVYMW5i+/lCW2KjXfCvTSkq/7mpuPAo6FchvWsL04SxIBbqAnCc2Fz2d5LzSaMbQtbiFUnm3hVeV7/vEifrXtd5WsqXNZVbqJMizmr4mzFgXlYa/i49fDrFjNdIppDwpuPfMKjV5qwIDAQAB",
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",

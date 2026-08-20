@@ -1,7 +1,7 @@
 {
   browser,
   pkgs,
-  extensionId ? "kikebbdlmkhepgmdakiniblgpkpbaolh",
+  extensionId ? "endghlnlmklkignebibikdpnlhojaglb",
   launcherName ? "chrome-url-router-browser",
 }:
 

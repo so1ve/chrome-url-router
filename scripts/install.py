@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 HOST_NAME = "dev.so1ve.chrome_url_router"
-EXTENSION_ID = "kikebbdlmkhepgmdakiniblgpkpbaolh"
+EXTENSION_ID = "endghlnlmklkignebibikdpnlhojaglb"
 BROWSER_CONFIG_DIRECTORIES = {
     "chrome": "google-chrome",
     "chromium": "chromium",
